@@ -1,0 +1,28 @@
+{
+  "$type": "Wully.Spell.DetectLifeSpell, DetectLife",
+  "id": "WullyDetectLifeSpell",  
+  "chargeEffectId": "SpellFireCharge",
+  "fingerEffectId": "SpellLightningChargeFinger",
+  "closeHandPoseId": "ChargeClose",
+  "openHandPoseId": "ChargeOpen",
+  "chargeSpeed": 0.7,
+  "stopSpeed": 0.6,
+  "stopIfManaDepleted": true,
+  "grabbedFireMaxCharge": 0.5,
+  "chargeMinHaptic": 0.05,
+  "chargeMaxHaptic": 0.3,
+  "allowThrow": false,
+  "allowSpray": true,
+  "sprayHandPoseId": null,
+  "sprayMagicOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "sprayHeadToFireMaxAngle": 45.0,
+  "sprayMinCharge": 0.5,
+  "minMana": 10.0,
+  "manaConsumption": 5.0,
+  "manaWaste": 0.0,
+  "level": 0
+}

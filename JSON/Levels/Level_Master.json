@@ -1,0 +1,53 @@
+{
+    "$type": "ThunderRoad.LevelData, Assembly-CSharp",
+    "id": "Master",
+    "saveFolder": "Bas",
+    "version": 2,
+    "name": null,
+    "description": null,
+    "spawnPlayer": false,
+    "spawnBody": false,
+    "fadeOutTime": 3.0,
+    "sceneAddress": null,
+    "musicAddress": null,
+    "musicVolume": 1.0,
+    "musicWaveAddress": null,
+    "musicWaveVolume": 1.0,
+    "mapId": null,
+    "mapLocation": null,
+    "mapOrbRimColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+    },
+    "mapOrbCubeMapAddress": null,
+    "showInLevelSelection": false,
+    "modes": [{
+            "name": "Default",
+            "displayName": "{Default}",
+            "description": "{NoDescription}",
+            "allowGameModes": null,
+            "iconAddress": "Bas.Icon.world",
+            "mapOrder": 0,
+            "modules": [{
+                    "$type": "Wully.Module.DetectLifeModule, DetectLife",
+					"enableLogging": true,
+                    "logLevel": "Debug",
+                    "layerMaskName": "NPC",
+                    "materialAddress": "Wully.Mat.DetectLife",
+                    "color":{
+                        "r": 1.0,
+                        "g": 0.0,
+                        "b": 1.0,
+                        "a": 1.0
+                      },
+
+                }
+            ],
+            "ranks": []
+        }
+    ],
+    "modePickCountPerRank": 2,
+    "customCameras": []
+}

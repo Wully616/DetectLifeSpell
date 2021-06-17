@@ -1,0 +1,14 @@
+{
+  "$type": "ThunderRoad.ContainerData, Assembly-CSharp",
+  "id": "PlayerDefault",
+  "version": 1,
+  "displayName": "",
+  "description": null,
+  "contents": [
+    {
+      "referenceID": "SpellItemDetectLife",
+      "reference": "Item",
+      "customValues": []
+    }
+  ]
+}
